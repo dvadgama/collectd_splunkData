@@ -53,7 +53,7 @@ Hence, We need another plugin which can extract these information from these CDA
 - Type: specify one of the collectd data type, as found in types.db
 
 #### node Key/Paramters
-- Path: it is a '/' seperated path to where your value of interest lies
+- Path: it is a Forward-slash ( i.e. '/' ) seperated path to where your value of interest lies
 
 i.e. refering to above example , if i want to know availabe connections , i would use 
 
