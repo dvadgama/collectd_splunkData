@@ -50,7 +50,7 @@ Hence, We need another plugin which can extract these information from these CDA
 - userName: your splunk login
 - userPasswor: your splunk password
 - URL:  API endpoint ,  <b>do not forget to add  <i> output_mode=json </i> at the end. Yes, this plugin can not handle the xml data<b>
-- Type: specify one of the collectd data type, as found in types.db
+- Type: specify one of the collectd data type, as found in types.db </b>
 
 #### node Key/Paramters
 - Path: it is a '/' seperated path to where your value of interest lies
