@@ -12,10 +12,11 @@ While curl_json/curl_xml plugin works to get the 90% of the information via REST
 
 - introspection/kvstore/serverstatus
 
- and , JSON out put looks like this , 
+ and , JSON out put looks like this
 <code>
+<pre>
 {
-<pre> "links":
+"links":
     {
     },
     "origin": "https://localhost/services/server/introspection/kvstore/serverstatus",
@@ -58,9 +59,9 @@ i.e. refering to above example , if i want to know availabe connections , i woul
 
 <code>
 <pre>
-`<Path "connections/available">
+< Path "connections/available" >
       Type "gauge"
-<Path>`
+< /Path >
 </pre>
 </code>
 
