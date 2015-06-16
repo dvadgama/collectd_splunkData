@@ -58,11 +58,9 @@ Hence, We need another plugin which can extract these information from these CDA
 i.e. refering to above example , if i want to know availabe connections , i would use 
 
 <code>
-<pre>
-< Path "connections/available" >
+<pre>< Path "connections/available" >
       Type "gauge"
-< /Path >
-</pre>
+< /Path ></pre>
 </code>
 
 #### Usage
