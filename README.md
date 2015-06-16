@@ -63,9 +63,9 @@ i.e. refering to above example , if i want to know availabe connections , i woul
 < /Path ></pre>
 </code>
 
-#### Usage
-- place the python module in a directory say /my/collectd/plugins/python
-- Refer to the splunk.conf and, collectd python module man pages 
-
+#### Notes
+- place the python module in a directory say /my/collectd/plugins/python before using it.
+- Refer to the splunk.conf for splunkData configuration and [collectd python]('https://collectd.org/documentation/manpages/collectd-python.5.shtml') for Python Plguin configuration in general
+- I used [redis-collectd-plugin]('https://github.com/powdahound/redis-collectd-plugin') as refrence while developing this plugin
 
 
