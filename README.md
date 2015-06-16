@@ -67,5 +67,6 @@ i.e. refering to above example , if i want to know availabe connections , i woul
 - place the python module in a directory say /my/collectd/plugins/python before using it.
 - Refer to the splunk.conf for Plugin(splunkData) configuration and, [collectd python](https://collectd.org/documentation/manpages/collectd-python.5.shtml) for Python Plguin configuration in general
 - I used [redis-collectd-plugin](https://github.com/powdahound/redis-collectd-plugin) as refrence while developing this plugin
+- It Can not handle the json arry yet but, it seems we may not need to support it anyway , if you have a reson , ping me!
 
 
